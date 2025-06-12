@@ -11,7 +11,7 @@ TravelJoy adalah proyek untuk membangun sistem rekomendasi tempat wisata di Indo
    Dalam notebook `recommendation_travelling_system.ipynb`, model rekomendasi dibuat dengan pendekatan content-based filtering. Deskripsi wisata diubah menjadi embedding dengan LSTM dan dihitung menggunakan cosine similarity.
 
 3. **API Inferensi (FastAPI)**  
-   Model yang dilatih diubah menjadi API dengan FastAPI dalam file `app.py`. API ini menerima input kategori wisata dan memberikan 10 rekomendasi tempat teratas.
+   Model yang dilatih diubah menjadi API dengan FastAPI dalam file `app.py`. API ini menerima input kategori wisata dan memberikan 10 rekomendasi tempat teratas. **Tahap ini dilakukan di VS Code**.
 
 4. **Pengujian API**  
    API diuji dengan Postman untuk memastikan bahwa respons yang diberikan adalah 200 OK dan berisi data rekomendasi.
@@ -39,8 +39,7 @@ TravelJoy/
 ├── recommendation\_travelling\_system.ipynb
 └── README.md
 
-````
-
+```
 ## Cara Mereplikasi Proyek
 
 1. **Clone Repositori**
@@ -60,13 +59,16 @@ TravelJoy/
    * Jalankan `Dataset_cleaning.ipynb` untuk menghasilkan `data_wisata.csv`.
    * Jalankan `recommendation_travelling_system.ipynb` untuk melatih model dan menghasilkan `text_embedding_model.keras` dan `cosine_similarity.pkl`.
 
-4. **Jalankan API Secara Lokal**
+4. **Jalankan API Secara Lokal di VS Code**
 
-   ```bash
-   uvicorn app:app --reload
-   ```
+   * Buka proyek ini di **VS Code**.
+   * Jalankan FastAPI dengan perintah berikut di terminal VS Code:
 
-   API akan berjalan di `http://127.0.0.1:8000`.
+     ```bash
+     uvicorn app:app --reload
+     ```
+
+     API akan berjalan di `http://127.0.0.1:8000`.
 
 5. **Uji API dengan Postman**
 
@@ -159,5 +161,5 @@ Jika Anda memiliki pertanyaan atau masukan, silakan hubungi \[Nama Anda] melalui
 
 ```
 
-README ini sudah dirapikan dengan fokus pada langkah-langkah utama dan penyederhanaan, siap untuk di-copy langsung ke GitHub.
+Penambahan tentang **VS Code** sudah disertakan pada bagian **Jalankan API Secara Lokal di VS Code**. Langkah-langkahnya disederhanakan, dan informasi yang tidak perlu telah dibuang untuk memastikan README lebih rapi dan terfokus.
 ```
