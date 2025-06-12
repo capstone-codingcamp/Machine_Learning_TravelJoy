@@ -155,11 +155,4 @@ Setelah deployment berhasil, API dapat diakses melalui URL publik yang disediaka
 ]
 ```
 
-## Kontak
 
-Jika Anda memiliki pertanyaan atau masukan, silakan hubungi \[Nama Anda] melalui \[Email Anda] atau \[Profil LinkedIn/GitHub Anda].
-
-```
-
-Penambahan tentang **VS Code** sudah disertakan pada bagian **Jalankan API Secara Lokal di VS Code**. Langkah-langkahnya disederhanakan, dan informasi yang tidak perlu telah dibuang untuk memastikan README lebih rapi dan terfokus.
-```
