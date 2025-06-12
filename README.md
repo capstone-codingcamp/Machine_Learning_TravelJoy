@@ -47,7 +47,7 @@ TravelJoy/
    ```bash
    git clone https://github.com/username/TravelJoy.git
    cd TravelJoy
-````
+
 
 2. **Instal Dependensi**
 
@@ -159,5 +159,5 @@ Jika Anda memiliki pertanyaan atau masukan, silakan hubungi \[Nama Anda] melalui
 
 ```
 
-README ini lebih sederhana, rapi, dan terfokus pada langkah-langkah utama tanpa detail yang berlebihan, siap untuk digunakan di GitHub.
+README ini sudah dirapikan dengan fokus pada langkah-langkah utama dan penyederhanaan, siap untuk di-copy langsung ke GitHub.
 ```
