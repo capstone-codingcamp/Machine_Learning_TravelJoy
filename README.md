@@ -23,7 +23,7 @@ TravelJoy adalah proyek untuk membangun sistem rekomendasi tempat wisata di Indo
 
 ```
 
-TravelJoy/
+Machine_Learning_TravelJoy/
 │
 ├── Inference/
 │   ├── assets/
